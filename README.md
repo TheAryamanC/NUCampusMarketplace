@@ -22,3 +22,6 @@ Users should be able to create an account, enter items along with description an
 
 # Website:
 https://still-anchorage-83254-12ed1b53baf3.herokuapp.com/
+
+## CI & QA
+- GitHub Actions runs security scans, linting, tests (with 80%+ coverage enforced via SimpleCov), and seeds the database to ensure fixtures load cleanly before merges.
